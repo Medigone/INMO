@@ -1,0 +1,104 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-12 18:52:59.397247",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "status",
+  "titre",
+  "adresse",
+  "nombre_chambres",
+  "etat",
+  "column_break_clwd",
+  "type",
+  "type_location",
+  "loyer_nuit\u00e9e",
+  "loyer_mensuel",
+  "prix_vente"
+ ],
+ "fields": [
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status"
+  },
+  {
+   "fieldname": "titre",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Titre"
+  },
+  {
+   "fieldname": "adresse",
+   "fieldtype": "Data",
+   "label": "Adresse"
+  },
+  {
+   "fieldname": "nombre_chambres",
+   "fieldtype": "Int",
+   "label": "Nombre Chambres"
+  },
+  {
+   "fieldname": "etat",
+   "fieldtype": "Rating",
+   "label": "Etat"
+  },
+  {
+   "fieldname": "column_break_clwd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "label": "Type",
+   "options": "Location\nVente"
+  },
+  {
+   "fieldname": "type_location",
+   "fieldtype": "Select",
+   "label": "Type Location",
+   "options": "Courte Dur\u00e9e\nLongue Dur\u00e9e"
+  },
+  {
+   "fieldname": "loyer_nuit\u00e9e",
+   "fieldtype": "Float",
+   "label": "Loyer Nuit\u00e9e"
+  },
+  {
+   "fieldname": "loyer_mensuel",
+   "fieldtype": "Float",
+   "label": "Loyer Mensuel"
+  },
+  {
+   "fieldname": "prix_vente",
+   "fieldtype": "Float",
+   "label": "Prix Vente"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-11-12 19:00:14.569921",
+ "modified_by": "Administrator",
+ "module": "Gestion Immobiliere",
+ "name": "Biens immobiliers",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
