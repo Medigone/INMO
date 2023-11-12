@@ -1,0 +1,76 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-12 20:42:14.758942",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "nom",
+  "pr\u00e9nom",
+  "nom_complet",
+  "column_break_zwzk",
+  "t\u00e9l",
+  "email",
+  "qualit\u00e9"
+ ],
+ "fields": [
+  {
+   "fieldname": "nom",
+   "fieldtype": "Data",
+   "label": "Nom"
+  },
+  {
+   "fieldname": "pr\u00e9nom",
+   "fieldtype": "Data",
+   "label": "Pr\u00e9nom"
+  },
+  {
+   "fieldname": "nom_complet",
+   "fieldtype": "Data",
+   "label": "Nom Complet"
+  },
+  {
+   "fieldname": "t\u00e9l",
+   "fieldtype": "Phone",
+   "label": "T\u00e9l"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "qualit\u00e9",
+   "fieldtype": "Rating",
+   "label": "Qualit\u00e9"
+  },
+  {
+   "fieldname": "column_break_zwzk",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-11-12 20:44:11.703970",
+ "modified_by": "Administrator",
+ "module": "Gestion Immobiliere",
+ "name": "Bailleurs",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
