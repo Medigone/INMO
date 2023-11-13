@@ -11,7 +11,9 @@
   "column_break_zwzk",
   "t\u00e9l",
   "email",
-  "qualit\u00e9"
+  "qualit\u00e9",
+  "liste_biens_tab",
+  "table_gcyt"
  ],
  "fields": [
   {
@@ -47,11 +49,21 @@
   {
    "fieldname": "column_break_zwzk",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "liste_biens_tab",
+   "fieldtype": "Tab Break",
+   "label": "Liste Biens"
+  },
+  {
+   "fieldname": "table_gcyt",
+   "fieldtype": "Table",
+   "options": "Biens Immo Bailleurs"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-11-12 20:44:11.703970",
+ "modified": "2023-11-12 20:48:29.257994",
  "modified_by": "Administrator",
  "module": "Gestion Immobiliere",
  "name": "Bailleurs",
